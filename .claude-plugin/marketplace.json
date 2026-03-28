@@ -13,7 +13,7 @@
       "name": "observe-opal",
       "source": {
         "source": "github",
-        "repo": "sujaymahadik/observe-opal"
+        "repo": "sujay-mahadik/observe-opal"
       },
       "description": "OPAL query assistant, Elastic event → Observe metric converter, and Grok → OPAL pattern migrator",
       "version": "0.2.0",
