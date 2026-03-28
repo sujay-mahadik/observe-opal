@@ -93,3 +93,7 @@ The skill expands every `%{PATTERN:field:type}` token, preserves literals, handl
 ## Requirements
 
 No external services or environment variables required. The plugin works entirely from the skills' built-in knowledge.
+
+## Created by
+Sujay Mahadik
+Designer Developer Dreamer
