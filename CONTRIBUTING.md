@@ -12,7 +12,7 @@ observe-opal/
 │   │   └── references/
 │   │       ├── syntax.md    ← complete OPAL verb/function reference
 │   │       └── datasets.md  ← Observe dataset schemas
-│   ├── elastic-event-to-metric/
+│   ├── json-event-to-metric/
 │   │   ├── SKILL.md
 │   │   └── references/
 │   │       └── elastic-endpoint.md
@@ -72,7 +72,7 @@ The OPAL syntax reference lives in `skills/opal-query/references/syntax.md`. To 
 
 1. Find the right section in `syntax.md` (verbs are grouped by category)
 2. Add the entry following the existing pattern — include signature, description, and at least one example
-3. If the verb/function is relevant to field extraction or metrics, also update `skills/elastic-event-to-metric/SKILL.md` or `skills/opal-query/SKILL.md` as appropriate
+3. If the verb/function is relevant to field extraction or metrics, also update `skills/json-event-to-metric/SKILL.md` or `skills/opal-query/SKILL.md` as appropriate
 
 ### Add new Grok pattern mappings
 
@@ -113,7 +113,7 @@ After installing locally, test each changed skill with a representative prompt:
 |---|---|
 | `opal-query` | "Write an OPAL query to count 5xx errors per service" |
 | `opal-query` | "Extract fields from: `10.0.0.1 - - [28/Mar/2026:10:22:15 +0000] \"GET / HTTP/1.1\" 200 1234`" |
-| `elastic-event-to-metric` | Paste a raw Logstash/Metricbeat JSON event and ask to convert it to a metric interface |
+| `json-event-to-metric` | Paste a raw Logstash/Metricbeat JSON event and ask to convert it to a metric interface |
 | `grok-to-opal` | "Convert this grok: `%{TIMESTAMP_ISO8601:timestamp} %{LOGLEVEL:level} %{GREEDYDATA:message}`" |
 
 ---

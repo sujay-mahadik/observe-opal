@@ -18,11 +18,11 @@ Helps with everything OPAL-related:
 
 **Trigger phrases:** "write an OPAL query", "explain this query", "debug my OPAL", "extract fields from this log", "how do I filter by pod", "count errors per service", "show me latency by namespace"
 
-### `elastic-event-to-metric` — Elastic Event → Observe Metrics
+### `json-event-to-metric` — JSON Event → Observe Metrics
 
-Converts any raw event arriving at Observe via the `/elastic` endpoint — from Logstash, Filebeat, Metricbeat, Elastic Agent, or any Beats shipper — into a complete, efficient OPAL pipeline that outputs an `interface "metric"` dataset. Handles field classification, metric/tag separation, timestamp parsing, and `flatten_leaves` patterns.
+Converts any raw JSON event — from Logstash, Filebeat, Metricbeat, Elastic Agent, any Beats shipper, or any other JSON source — into a complete, efficient OPAL pipeline that outputs an `interface "metric"` dataset. Handles field classification, metric/tag separation, timestamp parsing, and `flatten_leaves` patterns.
 
-**Trigger phrases:** "elastic event to observe metrics", "convert my elastic event", "turn this event into a metric", "ingest elastic data as observe metric", "logstash event to observe", "metricbeat to observe metric", "filebeat to observe metric", "elastic agent to observe", "beats to observe", "create a metric dataset from elastic", "how do I make a metric from this JSON", "identify which fields are metrics vs tags", "my data comes from logstash", "I'm sending data via the elastic endpoint"
+**Trigger phrases:** "json event to observe metrics", "elastic event to observe metrics", "convert my event", "convert my elastic event", "turn this event into a metric", "ingest data as observe metric", "ingest elastic data as observe metric", "logstash event to observe", "metricbeat to observe metric", "filebeat to observe metric", "elastic agent to observe", "beats to observe", "create a metric dataset", "how do I make a metric from this JSON", "identify which fields are metrics vs tags", "my data comes from logstash", "I'm sending data via the elastic endpoint"
 
 ### `grok-to-opal` — Grok Pattern Converter
 
