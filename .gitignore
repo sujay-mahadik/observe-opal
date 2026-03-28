@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Plugin packages — build these locally or via CI, don't commit
+*.plugin
+*.skill
+
+# Claude Code local state
+.claude/settings.local.json
+
+# Eval outputs (generated, not source)
+skills/*/evals/results/
+skills/*/evals/*.out.json
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+
+# Python (if any scripts are added)
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+
+# Node (if any tooling is added)
+node_modules/
+
+# Logs
+*.log
+

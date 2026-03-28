@@ -1,0 +1,24 @@
+{
+  "name": "observe-opal",
+  "version": "0.2.0",
+  "description": "OPAL query assistant for Observe — write, debug, explain, and onboard OPAL queries; convert Elastic Stack events (Logstash, Filebeat, Metricbeat, Beats) from the /elastic endpoint into Observe metric interfaces; and migrate Logstash Grok patterns to OPAL extract_regex statements.",
+  "author": {
+    "name": "Sujay Mahadik",
+    "email": "mahadik203@gmail.com"
+  },
+  "keywords": [
+    "observe",
+    "opal",
+    "observability",
+    "logstash",
+    "filebeat",
+    "metricbeat",
+    "elastic-agent",
+    "beats",
+    "metrics",
+    "elastic",
+    "query",
+    "grok"
+  ],
+  "license": "MIT"
+}

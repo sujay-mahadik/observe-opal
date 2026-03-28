@@ -1,0 +1,44 @@
+{
+  "name": "observe-opal",
+  "owner": {
+    "name": "Sujay Mahadik",
+    "email": "mahadik203@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude plugins for Observe platform users — OPAL query assistance, Elastic Stack event-to-metric conversion, and Grok pattern migration.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "observe-opal",
+      "source": {
+        "source": "github",
+        "repo": "sujaymahadik/observe-opal"
+      },
+      "description": "OPAL query assistant, Elastic event → Observe metric converter, and Grok → OPAL pattern migrator",
+      "version": "0.2.0",
+      "author": {
+        "name": "Sujay Mahadik",
+        "email": "mahadik203@gmail.com"
+      },
+      "homepage": "https://github.com/sujaymahadik/observe-opal",
+      "repository": "https://github.com/sujaymahadik/observe-opal",
+      "license": "MIT",
+      "keywords": [
+        "observe",
+        "opal",
+        "observability",
+        "logstash",
+        "filebeat",
+        "metricbeat",
+        "elastic-agent",
+        "beats",
+        "metrics",
+        "elastic",
+        "query",
+        "grok"
+      ],
+      "category": "observability"
+    }
+  ]
+}
