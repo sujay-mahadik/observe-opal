@@ -1,7 +1,7 @@
 {
   "name": "observe-opal",
-  "version": "0.2.0",
-  "description": "OPAL query assistant for Observe — write, debug, explain, and onboard OPAL queries; convert JSON events (Logstash, Filebeat, Metricbeat, Beats, or any JSON source) into Observe metric interfaces; and migrate Logstash Grok patterns to OPAL extract_regex statements.",
+  "version": "0.3.0",
+  "description": "OPAL query assistant for Observe — write, debug, explain, and onboard OPAL queries; convert JSON events (Logstash, Filebeat, Metricbeat, Beats, Prometheus, Elastic Agent, or any JSON source) into Observe metric interfaces; and migrate Logstash Grok patterns to OPAL extract_regex statements.",
   "author": {
     "name": "Sujay Mahadik",
     "email": "mahadik203@gmail.com"
@@ -17,6 +17,7 @@
     "beats",
     "metrics",
     "elastic",
+    "prometheus",
     "query",
     "grok"
   ],

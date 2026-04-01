@@ -5,8 +5,8 @@
     "email": "mahadik203@gmail.com"
   },
   "metadata": {
-    "description": "Claude plugins for Observe platform users — OPAL query assistance, JSON event-to-metric conversion, and Grok pattern migration.",
-    "version": "0.2.0"
+    "description": "Claude plugins for Observe platform users — OPAL query assistance, JSON event-to-metric conversion (including Prometheus and Elastic Agent), and Grok pattern migration.",
+    "version": "0.3.0"
   },
   "plugins": [
     {
@@ -15,8 +15,8 @@
         "source": "github",
         "repo": "sujay-mahadik/observe-opal"
       },
-      "description": "OPAL query assistant, JSON event → Observe metric converter, and Grok → OPAL pattern migrator",
-      "version": "0.2.0",
+      "description": "OPAL query assistant, JSON event → Observe metric converter (Logstash, Beats, Prometheus, Elastic Agent), and Grok → OPAL pattern migrator",
+      "version": "0.3.0",
       "author": {
         "name": "Sujay Mahadik",
         "email": "mahadik203@gmail.com"
@@ -35,6 +35,7 @@
         "beats",
         "metrics",
         "elastic",
+        "prometheus",
         "query",
         "grok"
       ],
